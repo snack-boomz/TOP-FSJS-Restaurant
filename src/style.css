@@ -1,17 +1,57 @@
 @font-face {
-    font-family: 'Roboto Condensed';
-    src: url('./RobotoCondensed-Regular.ttf') format('ttf');
+    font-family: 'RobotoCondensed';
+    src: url(./RobotoCondensed-Regular.ttf) format('truetype');
     font-weight: 600;
     font-style: normal;
-  }
+}
+
+@font-face {
+    font-family: 'RobotoCondensedBold';
+    src: url(./RobotoCondensed-Bold.ttf) format('truetype');
+    font-weight: 900;
+    font-style: bold;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+strong {
+    font-family: RobotoCondensedBold;
+}
 
 body {
-    font-family: 'Roboto Condensed';
+    font-family: RobotoCondensed, Calibri, sans-serif;
     width: 100%;
+    background: #e3a857; /* indian yellow */
 }
 
 #content {
     width: 80%;
     text-align: center;
+    margin: auto;
+    border: 1px dotted black;
+    background: #ffae42; /* Yellow Orange */
     
 }
+
+#content > div {
+    padding: 10px 24px;
+    margin: 10px 24px;
+}
+
+.restaurant-header {
+    padding-bottom: 8px !important;
+    margin-bottom: 8px !important;
+}
+
+.big-mo-image {
+}
+
+.big-mo-image img {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
