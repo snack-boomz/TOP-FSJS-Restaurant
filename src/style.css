@@ -12,6 +12,10 @@
     font-style: bold;
 }
 
+html {
+    height: 100%;
+}
+
 h1 {
     font-size: 64px;
 }
@@ -23,14 +27,17 @@ strong {
 body {
     font-family: RobotoCondensed, Calibri, sans-serif;
     width: 100%;
+    height: 100%;
+
     background: #e3a857; /* indian yellow */
 }
 
 #content {
     width: 80%;
+    min-height: 100%;
     text-align: center;
     margin: auto;
-    border: 1px dotted black;
+    border: 1px solid black;
     background: #ffae42; /* Yellow Orange */
     
 }
@@ -43,6 +50,19 @@ body {
 .restaurant-header {
     padding-bottom: 8px !important;
     margin-bottom: 8px !important;
+    margin-top: 32px !important;
+}
+
+.menu-header {
+    padding-bottom: 8px !important;
+    margin-bottom: 8px !important;
+    margin-top: 32px !important;
+}
+
+.contact-header {
+    padding-bottom: 8px !important;
+    margin-bottom: 8px !important;
+    margin-top: 32px !important;
 }
 
 .big-mo-image {
@@ -55,3 +75,57 @@ body {
     border: 3px solid black;
 }
 
+.nav-header {
+    list-style-type: none;
+    width: 55%;
+    margin: auto;
+}
+
+.nav-header li {
+    float: left;
+    display: block;
+    width: 30%;
+    padding: 1%;
+    padding-bottom: 5%;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    
+    
+}
+
+.nav-header li:hover {
+    text-shadow: 1px 1px whitesmoke;
+    transition-duration: 0.3s;
+
+}
+
+.nav-home > .fa-paw {
+    transform: rotate(65deg);
+    margin-right: 10px;
+    font-size: 24px;
+    
+}
+
+.nav-menu > .fa-paw {
+    transform: rotate(-123deg);
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.nav-contact > .fa-paw {
+    transform: rotate(110deg);
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.item-header p .fa-phone-alt {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.item-header p .fa-envelope-open-text {
+    margin-right: 10px;
+    font-size: 24px;
+}

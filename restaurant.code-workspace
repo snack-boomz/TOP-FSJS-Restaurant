@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../webpack-demo"
+		},
+		{
+			"path": "../TOP-FSJS-TicTacToe"
+		},
+		{
+			"path": "../TheOdinProject-JavaScript-EtchASketch-2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TOP-FSJS-Restaurant"
+	}
+}
